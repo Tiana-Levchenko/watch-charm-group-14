@@ -1,3 +1,7 @@
+.about-us{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .about-us-wrapper {
 max-width: 335px;
 background-color: #f3f3f3;
@@ -60,6 +64,10 @@ color: #fbfbfb;
 }
 
 @media screen and (min-width:768px) {
+    .about-us{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
     .about-us-wrapper{
     padding: 80px 60px;
     border-radius: 50px;
@@ -88,17 +96,20 @@ color: #fbfbfb;
 }
 
 @media screen and (min-width:1280px) {
+   .about-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .about-us-box{
     display: flex;
     justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
     }
     .about-us-wrapper{
     max-width: 580px;
     max-height: 532px;
     margin-bottom: 0;
     }
-    .container{
-        padding-left: 65px;
-        padding-right: 65px;
-    }
+    
 }
