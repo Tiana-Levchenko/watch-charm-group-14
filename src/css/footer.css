@@ -1,5 +1,9 @@
 /*---FOOTER---*/
 
+address{
+  font-style: normal;
+}
+
 .footer a {
   text-decoration: none;
   color: #fbfbfb;
