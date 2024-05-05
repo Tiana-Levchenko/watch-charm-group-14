@@ -8,6 +8,7 @@
 }
 
 .footer-main {
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -186,8 +187,14 @@
 /*------------*/
 
 @media screen and (min-width: 768px) {
+  .footer-main.container{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .footer-main {
     padding-bottom: 32px;
+    padding-top: 40px;
   }
 
   .footer {
@@ -271,6 +278,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-main{
+    padding-top: 50px;
+  }
+
   .footer-contacts {
     margin-bottom: 126px;
   }
