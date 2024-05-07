@@ -1,0 +1,143 @@
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title_name {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  max-width: 335px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.title_span {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #3350e9;
+}
+
+.title_description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  max-width: 315px;
+  margin-bottom: 28px;
+}
+
+.scroll_bar {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+
+.scroll_bar:hover {
+  color: #3350e9;
+}
+
+.hero_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 28px;
+}
+
+.hero_bg_img {
+  margin-bottom: 30px;
+}
+
+.picture_bg {
+  background: rgba(12, 12, 12, 0.2);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background: rgba(12, 12, 12, 0.2), url("path_to_image"),
+      url(./hero/hero_bg_pc_2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .title_name {
+    font-size: 70px;
+    line-height: 0.86;
+    min-width: 557px;
+  }
+
+  .title_span {
+    font-size: 70px;
+    line-height: 0.86;
+  }
+
+  .title_description {
+    font-size: 16px;
+    line-height: 1.25;
+    min-width: 480px;
+  }
+
+  .scroll_bar {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .logo_mob {
+    width: 704px;
+    height: 520px;
+  }
+
+  .hero_title {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 11px;
+  }
+
+  .hero_bg_img {
+    margin-bottom: 40px;
+  }
+
+  .hero_flex {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero_bg_img {
+    margin-bottom: 50px;
+  }
+
+  .hero_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .scroll_bar {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .title_name {
+    font-size: 72px;
+    line-height: 0.88;
+    min-width: 597px;
+  }
+}
