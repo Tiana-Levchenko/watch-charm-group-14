@@ -1,0 +1,163 @@
+.hero-main {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.hero-content {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.marked {
+    color: #3350e9;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero-people-list {
+    display: flex;
+}
+
+.hero-people-item {
+    position: relative;
+}
+
+.hero-people-item:not(:first-child) {
+    margin-left: -15px;
+}
+
+.hero-people-image {
+    width: 44px;
+    height: 44px;
+}
+
+.scroll-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-btn:hover,
+.scroll-btn:active,
+.scroll-btn:focus {
+    color: #3350e9;
+}
+
+.hero-image {
+    border-radius: 30px;
+    width: 335px;
+    height: 366px;
+    margin: 0 auto;
+}
+
+/* HERO */
+
+@media screen and (min-width: 768px) {
+    .hero-main {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .hero-content {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: unset;
+        justify-content: space-between;
+    }
+
+    .hero-content-text {
+        max-width: 557px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        line-height: 0.86;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .hero-extra {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .hero-people-item:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .hero-people-item:not(:last-child) {
+        margin-right: -15px;
+    }
+
+    .hero-people-image {
+        width: 56px;
+        height: 56px;
+    }
+
+    .scroll-btn {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .hero-image {
+        width: 704px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-main {
+        padding-bottom: 50px;
+    }
+
+    .hero-content-text {
+        max-width: 597px;
+    }
+
+    .hero-title {
+        font-size: 72px;
+        line-height: 0.875;
+    }
+
+    .hero-people-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero-image {
+        width: 1150px;
+        height: 500px;
+    }
+}
