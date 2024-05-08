@@ -30,3 +30,17 @@ document.addEventListener('click', function (event) {
     menuWindow.classList.remove('is-open');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  var inputs = document.querySelectorAll('.check-pattern');
+
+  inputs.forEach(function (input) {
+    input.addEventListener('input', function () {
+      if (input.value.trim() !== '') {
+        input.classList.add('check-pattern-applied');
+      } else {
+        input.classList.remove('check-pattern-applied');
+      }
+    });
+  });
+});
