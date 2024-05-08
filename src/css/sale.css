@@ -1,4 +1,4 @@
-.sales {
+.sale {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -153,7 +153,7 @@
 
 .watch-tags-item:hover,
 .watch-tags-item:active,
-.watch-tags-item:focus {
+.watch-tags-item:focus-within {
   background: #1f3cd4;
 }
 
@@ -167,7 +167,7 @@
 /* SALES */
 
 @media screen and (min-width: 768px) {
-  .sales {
+  .sale {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -246,7 +246,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .sales {
+  .sale {
     padding-top: 50px;
     padding-bottom: 50px;
   }
