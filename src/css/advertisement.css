@@ -86,14 +86,13 @@ background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-btn {
+.advertisement-link {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
-    cursor: pointer;
     background-color: transparent;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
@@ -101,7 +100,7 @@ background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),
     min-width: 160px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.advertisement-btn:hover , .advertisement-btn:focus {
+.advertisement-link:hover , .advertisement-link:focus {
     color: #0c0c0c;
     background-color: #fbfbfb;
 }
