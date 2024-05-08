@@ -1,0 +1,153 @@
+.catalog-section {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.catalog-head {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catalog-item {
+  padding: 24px 28px;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.catalog-item-mob-comp {
+  display: none;
+}
+
+.catalog-watch-name {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+
+.catalog-watch-price {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-image {
+  width: 208px;
+  height: 226px;
+  margin: 0 auto 28px;
+}
+
+.catalog-button {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 48px;
+  margin-top: 40px;
+  border-radius: 16px;
+  background: #3350e9;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-button:hover {
+  background: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .catalog-head {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
+
+  .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+  }
+
+  .catalog-item {
+    padding: 24px 32px;
+    width: calc((100% - 16px) / 2);
+  }
+
+  .catalog-item-mob-comp {
+    display: block;
+  }
+
+  .catalog-watch-name {
+    max-width: 280px;
+    font-size: 20px;
+    line-height: 1;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .catalog-image {
+    width: 268px;
+    height: 292px;
+    margin-bottom: 20px;
+  }
+
+  .catalog-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .catalog-list {
+    gap: 32px 23px;
+  }
+
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+  }
+
+  .catalog-watch-name {
+    max-width: 304px;
+  }
+
+  .catalog-image {
+    width: 292px;
+    height: 292px;
+    margin-bottom: 24px;
+  }
+}

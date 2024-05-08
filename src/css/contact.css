@@ -1,4 +1,3 @@
-
     .section-contact-us {
     padding-top: 30px;
     padding-bottom: 60px;
@@ -18,11 +17,11 @@
     .form-wrap {
     border-radius: 30px;
     padding: 48px 28px;
-    width: 335px;
     height: 512px;
     background: #f3f3f3;
     margin-bottom: 20px;
     }
+
 
     .check-pattern:valid {
   border-color: green;
@@ -121,136 +120,125 @@
 /*=========Adaptive-TABLET=========*/
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .section-contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-    .section-contact-us {
-        padding-top: 40px;
-        padding-bottom: 80px;
-    }
+  .contact-us-title {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
 
-    .contact-us-title {
-        font-size: 48px;
-        line-height: 0.9;
-        margin-bottom: 40px;
-    }
-
-    .form-wrap {
-        border-radius: 50px;
-        padding: 50px 122px;
-        width: 704px;
-        height: 556px;
-        margin-bottom: 40px;
-    }
-
-    .contact-us-text {
-        max-width: 460px;
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 32px;
-
-    }
-
-    .contact-us-input {
-        height: 52px;
-        padding-left: 18px;
-    }
-
-    
-
-    .contact-us-input::placeholder {
-       font-size: 16px;
-       line-height: 1.25 
-    }
-
-    .contact-us-comment {
-        height: 90px;
-        padding: 16px 16px;
-    }
-
-    .contact-us-comment::placeholder {
-       font-size: 16px;
-       line-height: 1.25  
-    }
-
-    .contact-us-btn {
-      min-width: 160px;
-      height: 52px;
-      margin-top: 32px;
-
-    }
-
-    .img-contact {
+  .form-wrap {
     border-radius: 50px;
-}
+    padding: 50px 122px;
+    width: 704px;
+    height: 556px;
+    margin-bottom: 40px;
+  }
 
+  .contact-us-text {
+    max-width: 460px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
 
+  .contact-us-input {
+    height: 52px;
+    padding-left: 18px;
+  }
+
+  .contact-us-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contact-us-comment {
+    height: 90px;
+    padding: 16px 16px;
+  }
+
+  .contact-us-comment::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contact-us-btn {
+    min-width: 160px;
+    height: 52px;
+    margin-top: 32px;
+  }
+
+  .img-contact {
+    border-radius: 50px;
+  }
 }
 
 /*=========Adaptive-DESKTOP=========*/
 
-@media screen and (min-width:1280px) {
-
-
-    .section-contact-us {
+@media screen and (min-width: 1280px) {
+  .section-contact-us {
     padding-top: 50px;
-    padding-bottom: 100px;
-    }
+    padding-bottom: 50px;
+  }
 
-     .box-wrapper {
+  .box-wrapper {
     display: flex;
     align-items: center;
     gap: 40px;
-    }
+  }
 
-    .contact-us-title {
-        font-size: 48px;
-        line-height: 0.9;
-        margin-bottom: 40px;
-    }
+  .contact-us-title {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
 
-    .form-wrap {
-        width: 580px;
-        height: 556px;
-        margin: 0;
-        padding: 50px 60px 50px 60px;
-    }
+  .form-wrap {
+    width: 580px;
+    height: 556px;
+    margin: 0;
+    padding: 50px 60px 50px 60px;
+  }
 
-    .contact-us-text {
-        
-        min-width: 460px;
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 32px;
-    }
+  .contact-us-text {
+    min-width: 460px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
 
-    .contact-us-input {
-        height: 52px;
-        padding-left: 18px;
-    }
+  .contact-us-input {
+    height: 52px;
+    padding-left: 18px;
+  }
 
-    .contact-us-input::placeholder {
-       font-size: 16px;
-       line-height: 1.25 
-    }
+  .contact-us-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 
-    .contact-us-comment {
-        height: 90px;
-        padding: 16px 16px;
-    }
+  .contact-us-comment {
+    height: 90px;
+    padding: 16px 16px;
+  }
 
-   
-    .contact-us-comment::placeholder {
-       font-size: 16px;
-       line-height: 1.25  
-    }
+  .contact-us-comment::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 
-    .contact-us-btn {
-      min-width: 160px;
-      height: 52px;
-      margin-top: 32px;
-      margin-bottom: 50px;
-    }
+  .contact-us-btn {
+    min-width: 160px;
+    height: 52px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+  }
 
-    .img-contact {
+  .img-contact {
     border-radius: 50px;
     }
 
