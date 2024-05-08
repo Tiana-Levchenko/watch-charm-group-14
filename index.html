@@ -11,7 +11,7 @@
     <!-- Own styles link -->
     
     <script type="module" crossorigin src="/watch-charm-group-14/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watch-charm-group-14/assets/index-7254c172.css">
+    <link rel="stylesheet" href="/watch-charm-group-14/assets/index-25b0a935.css">
   </head>
   <body>
     <header class="header-main" id="logo">
@@ -546,18 +546,15 @@
         <div class="form-wrap">
 
             <form class="contact-us-form">
+
                 <p class="contact-us-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
 
-                <label for="user-name"></label>
-                <input class="contact-us-input" type="text" name="user-name" id="user-name" placeholder="Name">
+                <input class="contact-us-input" type="text" name="user-name" id="user-name" placeholder="Name" required>
 
-                <label for="user-email"></label>
-                <input class="contact-us-input" type="email" name="user-email" id="user-email" placeholder="Email">
+                <input class="contact-us-input check-pattern" type="email" name="user-email" id="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                
+                <input class="contact-us-input check-pattern" type="tel" name="user-tel" id="user-tel" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" required>
 
-                <label for="user-tel"></label>
-                <input class="contact-us-input" type="tel" name="user-tel" id="user-tel" placeholder="+380">
-
-                <label for="user-comment"></label>
                 <textarea class="contact-us-comment" name="user-comment" id="user-comment" placeholder="Comment"></textarea>
 
                 <button class="contact-us-btn" type="submit">Send</button>
